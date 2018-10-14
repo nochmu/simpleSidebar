@@ -1,0 +1,20 @@
+{
+  "title" : "Demo Sidebar",
+  "bookmarks" : [
+    {
+      "label" : "PHP",
+      "url"   : "http://php.net",
+      "info"  : "PHP: Hypertext Preprocessor "
+    },
+    {
+      "label" : "This page",
+      "url"   : "http://${HTTP_HOSTNAME}:${HTTP_PORT}/",
+      "info"  : "Sidebar"
+    },
+    {
+      "label" : "Portainer",
+      "url"   : "http://${HTTP_HOSTNAME}:9000/",
+      "info"  : "Docker UI"
+    }
+  ]
+}
